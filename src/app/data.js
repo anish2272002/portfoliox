@@ -109,7 +109,7 @@ export const certificationData=[
     },
     {
         "title":"HackerRank Java (Basic)",
-        "img":"hackerrank_java.jpeg"
+        "img":"hackerrank_java.jpg"
     },
     {
         "title":"HackerRank Python (Basic)",

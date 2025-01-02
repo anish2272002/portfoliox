@@ -12,7 +12,7 @@ const Certificate=(props)=>{
         {showCertificate && 
         <div className="certioverlay">
             <div>
-                <button onClick={()=>setShowCertificate(false)} type="button" class="btn btn-outline-dark"><i class="fa-solid fa-xmark"></i></button>
+                <button onClick={()=>setShowCertificate(false)} type="button" class="btn btn-dark"><i class="fa-solid fa-xmark"></i></button>
                 <img src={`assets/certification/${props.img}`} alt={props.title} class="img-fluid rounded" style={{"width":"100%"}}/>
             </div>
         </div>
