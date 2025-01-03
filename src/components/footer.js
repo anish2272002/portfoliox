@@ -5,7 +5,7 @@ const Footer=()=>{
                 <div className="col-md-8 mt-4">
                     <h3>ANISH KUMAR</h3>
                     <span style={{"opacity":"0.8","marginTop":"1.5rem","fontWeight":"100"}}>
-                        Software Engineer specializing in web development and automated deployments.<br/>
+                        Software Engineer specializing in web development and cloud deployments.<br/>
                         Focused on AI, Computer Vision, and LLMs to create intelligent, scalable solutions.
                     </span>
                 </div>

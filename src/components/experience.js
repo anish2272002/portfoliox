@@ -39,7 +39,7 @@ const Experience = ()=>{
             <div className="row w-100" style={{"color":"rgba(255,255,255,0.8)","fontSize":"1rem"}}>
                 <h3>SYNAMEDIA</h3>
                 <div className="col-lg-6 col-md-12 my-3">
-                    <video poster="assets/project/" controls autoPlay controlsList="nodownload noremoteplayback" loop muted className="img-fluid" style={{"maxHeight":"60vh","borderRadius":"0.8rem"}}>
+                    <video preload="none" poster="assets/experience/back.png" controls autoPlay controlsList="nodownload noremoteplayback" loop muted className="img-fluid" style={{"maxHeight":"60vh","borderRadius":"0.8rem"}}>
                         <source src="assets/experience/synamedia/Recording_2024-12-29_125416x4.mp4" type="video/mp4"/>
                     </video>
                 </div>
@@ -60,7 +60,7 @@ const Experience = ()=>{
                 </div>
 
                 <div className="col-lg-6 col-md-12 my-3">
-                    <video controls autoPlay controlsList="nodownload noremoteplayback" loop muted className="img-fluid" style={{"maxHeight":"60vh","borderRadius":"0.8rem"}}>
+                    <video preload="none" poster="assets/experience/back.png" controls autoPlay controlsList="nodownload noremoteplayback" loop muted className="img-fluid" style={{"maxHeight":"60vh","borderRadius":"0.8rem"}}>
                         <source src="assets/experience/synamedia/Recording_2024-12-29_115324x4.mp4" type="video/mp4"/>
                     </video>
                 </div>
@@ -91,7 +91,7 @@ const Experience = ()=>{
                     <>
                     <div className="col-lg-3 col-md-6 my-3">
                         {item.video && 
-                        <video poster="assets/project/" controls autoPlay controlsList="nodownload noremoteplayback" loop muted className="img-fluid" style={{"maxHeight":"60vh","borderRadius":"0.8rem"}}>
+                        <video preload="none" poster="assets/experience/back.png" controls autoPlay controlsList="nodownload noremoteplayback" loop muted className="img-fluid" style={{"maxHeight":"60vh","borderRadius":"0.8rem"}}>
                             <source src={`assets/experience/synamedia/${item.video}`} type="video/mp4"/>
                         </video>}
                         {item.img &&
@@ -120,7 +120,7 @@ const Experience = ()=>{
                 <hr className="my-3"/>
                 <h3>On Demand Experts</h3>
                 <div className="col-lg-6 col-md-12 my-3">
-                    <video controls autoPlay controlsList="nodownload noremoteplayback" loop muted className="img-fluid" style={{"maxHeight":"60vh","borderRadius":"0.8rem"}}>
+                    <video preload="none" poster="assets/experience/back.png" controls autoPlay controlsList="nodownload noremoteplayback" loop muted className="img-fluid" style={{"maxHeight":"60vh","borderRadius":"0.8rem"}}>
                         <source src="assets/experience/referqik/referqik-demo-4.mp4" type="video/mp4"/>
                     </video>
                 </div>
@@ -144,7 +144,7 @@ const Experience = ()=>{
                 <hr className="my-3"/>
                 <h3>SAMSUNG PRISM</h3>
                 <div className="col-lg-6 col-md-12 my-3">
-                    <video controls autoPlay controlsList="nodownload noremoteplayback" loop muted className="img-fluid" style={{"maxHeight":"60vh","borderRadius":"0.8rem"}}>
+                    <video preload="none" poster="assets/experience/back.png" controls autoPlay controlsList="nodownload noremoteplayback" loop muted className="img-fluid" style={{"maxHeight":"60vh","borderRadius":"0.8rem"}}>
                         <source src="assets/experience/samsung/pitfig.mp4" type="video/mp4"/>
                     </video>
                 </div>
@@ -168,23 +168,45 @@ const Experience = ()=>{
                 <hr className="my-3"/>
                 <h3>B.N.M Institute of Technology</h3>
                 <div className="col-lg-6 col-md-12 my-3">
-                    <video controls autoPlay controlsList="nodownload noremoteplayback" loop muted className="img-fluid" style={{"maxHeight":"60vh","borderRadius":"0.8rem"}}>
-                        <source src="assets/experience/techit/record.mp4" type="video/mp4"/>
+                    <video preload="none" poster="assets/experience/back.png" controls autoPlay controlsList="nodownload noremoteplayback" loop muted className="img-fluid" style={{"maxHeight":"60vh","borderRadius":"0.8rem"}}>
+                        <source src="assets/experience/bnm/weather.mp4" type="video/mp4"/>
+                    </video>
+                </div>
+                <div className="col-lg-6 col-md-12 my-3">
+                    <h4>WEATHER</h4>
+                    <p><span>
+                    Developed a <strong>weather prediction</strong> system that fetches and cleans historical data from the OpenWeatherMap API. Trained <strong>Random Forest</strong> and Gradient Boosting classifiers once on this data. Hosted a REST API with persistent storage as a mediator. The SPA collects geolocation info, fetches recent environmental data, and predicts the next 24 hours using an <strong>ARMA</strong> model. The predicted variables are classified to determine weather conditions like sunny or cloudy.
+                    </span></p>
+                    <div className="row">
+                        <picture style={{"maxWidth":"50%"}}>
+                            <source media="(max-width:720px)" srcSet="assets/experience/bnm/we.png"/>
+                            <img src="assets/experience/bnm/we3.jpg" alt="weather" className="img-fluid" style={{"borderRadius":"0.8rem"}}/>
+                        </picture>
+                        <picture style={{"maxWidth":"50%"}}>
+                            <source media="(max-width:720px)" srcSet="assets/experience/bnm/we.png"/>
+                            <img src="assets/experience/bnm/we2.png" alt="weather" className="img-fluid" style={{"borderRadius":"0.8rem"}}/>
+                        </picture>
+                    </div>
+                </div>
+
+                <div className="col-lg-6 col-md-12 my-3">
+                    <video preload="none" poster="assets/experience/back.png" controls autoPlay controlsList="nodownload noremoteplayback" loop muted className="img-fluid" style={{"maxHeight":"60vh","borderRadius":"0.8rem"}}>
+                        <source src="assets/experience/bnm/record.mp4" type="video/mp4"/>
                     </video>
                 </div>
                 <div className="col-lg-6 col-md-12 my-3">
                     <h4>TechIT</h4>
                     <p><span>
-                    Developed and launched the official club website for B.N.M. Institute of Technology, with a strong focus on <strong>digital marketing</strong> to enhance visibility and engagement. Leveraged <strong>AWS CloudFront CDN</strong> for fast and reliable content delivery, ensuring a seamless user experience. Implemented key features including event scheduling, gallery management, FAQ section, and a secure member login system for personalized access. Utilized <strong>Jira</strong>for agile development, enabling efficient project management, regular sprint reviews, and timely delivery of features.
+                    Developed and launched the official club website for B.N.M. Institute of Technology, with a strong focus on <strong>digital marketing</strong> to enhance visibility and engagement. Leveraged <strong>AWS CloudFront CDN</strong> for fast and reliable content delivery, ensuring a seamless user experience. Implemented key features including event scheduling, gallery management, FAQ section, and a secure member login system for personalized access. Utilized <strong>Jira</strong> for agile development, enabling efficient project management, regular sprint reviews, and timely delivery of features.
                     </span></p>
                     <div className="row">
                         <picture style={{"maxWidth":"50%"}}>
-                            <source media="(max-width:720px)" srcSet="assets/experience/techit/techitlogin.jpg"/>
-                            <img src="assets/experience/techit/techitlogin.jpg" alt="techit" className="img-fluid" style={{"borderRadius":"0.8rem"}}/>
+                            <source media="(max-width:720px)" srcSet="assets/experience/bnm/techitlogin.jpg"/>
+                            <img src="assets/experience/bnm/techitlogin.jpg" alt="techit" className="img-fluid" style={{"borderRadius":"0.8rem"}}/>
                         </picture>
                         <picture style={{"maxWidth":"50%"}}>
-                            <source media="(max-width:720px)" srcSet="assets/experience/techit/IMG-20240523-WA0057.jpg"/>
-                            <img src="assets/experience/techit/IMG-20240523-WA0057.jpg" alt="tecchit" className="img-fluid" style={{"borderRadius":"0.8rem"}}/>
+                            <source media="(max-width:720px)" srcSet="assets/experience/bnm/IMG-20240523-WA0057.jpg"/>
+                            <img src="assets/experience/bnm/IMG-20240523-WA0057.jpg" alt="tecchit" className="img-fluid" style={{"borderRadius":"0.8rem"}}/>
                         </picture>
                     </div>
                 </div>
