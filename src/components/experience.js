@@ -179,7 +179,7 @@ const Experience = ()=>{
                     </span></p>
                     <div className="row">
                         <picture style={{"maxWidth":"50%"}}>
-                            <source media="(max-width:720px)" srcSet="assets/experience/bnm/we3.png"/>
+                            <source media="(max-width:720px)" srcSet="assets/experience/bnm/we3.jpg"/>
                             <img src="assets/experience/bnm/we3.jpg" alt="weather" className="img-fluid" style={{"borderRadius":"0.8rem"}}/>
                         </picture>
                         <picture style={{"maxWidth":"50%"}}>
