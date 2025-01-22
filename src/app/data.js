@@ -96,6 +96,10 @@ export const projectData=[
 
 export const certificationData=[
     {
+        "title":"IEEE 2025 Paper Efficient Pothole Detection in Video Sequences",
+        "img":"ieee.jpeg"
+    },
+    {
         "title":"On Demand Experts Software Development Internship",
         "img":"internship_edited_2.jpeg"
     },
