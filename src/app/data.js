@@ -29,6 +29,14 @@ export const skillsArr=[
 
 export const projectData=[
     {
+        imgs:"secureshare.jpg",
+        img:"secureshare.jpg",
+        title:"SecureShare Web App",
+        description:"Backend implemented using Django <strong>REST API</strong>, providing role-based user authentication with 2FA using JWT. It features end-to-end encrypted file sharing and storage. ReactJS communicates with the API over HTTPS, delivering a responsive UI and single Sign-On (<strong>SSO</strong>). Both services are dockerized and hosted using EC2 and <strong>ECS</strong>.",
+        github:"https://github.com/anish2272002/secure-file-share",
+        website:null,
+    },
+    {
         imgs:"goal-app.jpg",
         img:"goal-app.jpeg",
         title:"Goal Web App",
