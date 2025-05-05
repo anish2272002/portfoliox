@@ -40,6 +40,24 @@ const Experience = ()=>{
                 <h3>SYNAMEDIA</h3>
                 <div className="col-lg-6 col-md-12 my-3">
                     <video preload="none" poster="assets/experience/back.png" controls autoPlay controlsList="nodownload noremoteplayback" loop muted className="img-fluid" style={{"maxHeight":"60vh","borderRadius":"0.8rem"}}>
+                        <source src="assets/experience/synamedia/manoranjan.mp4" type="video/mp4"/>
+                    </video>
+                </div>
+                <div className="col-lg-6 col-md-12 my-3">
+                    <h4>Manoranjan</h4>
+                    <p><span>
+                    Built a scalable chunk-based media streaming system supporting both live (SRT) and VOD inputs. Developed a segmenter to split incoming streams into discrete video, audio, and subtitle chunks. Designed a Redis-queued pipeline where each chunk is transcoded to <strong>multiple resolutions</strong> using FFmpeg, and packaged into CMAF-compliant HLS and DASH formats using Shaka Packager. Ensured seamless <strong>multi-language</strong> support and future DRM integration. Planned for efficient cloud distribution using MSO storage, CDN integration, and shield layers.
+                    </span></p>
+                    <div className="row">
+                            <picture style={{"maxWidth":"100%"}}>
+                                <source media="(max-width:720px)" srcSet="assets/experience/synamedia/marchitecture.png"/>
+                                <img src="assets/experience/synamedia/marchitecture.png" alt="Manoranjan" className="img-fluid" style={{"borderRadius":"0.8rem"}}/>
+                            </picture>
+                    </div>
+                </div>
+
+                <div className="col-lg-6 col-md-12 my-3">
+                    <video preload="none" poster="assets/experience/back.png" controls autoPlay controlsList="nodownload noremoteplayback" loop muted className="img-fluid" style={{"maxHeight":"60vh","borderRadius":"0.8rem"}}>
                         <source src="assets/experience/synamedia/Recording_2024-12-29_125416x4.mp4" type="video/mp4"/>
                     </video>
                 </div>
