@@ -29,6 +29,14 @@ export const skillsArr=[
 
 export const projectData=[
     {
+        imgs:"voicebot.jpg",
+        img:"voicebot.jpg",
+        title:"Anish Voice Bot",
+        description:"A semantic AI chat and voice assistant using <b>OpenAI</b> GPT and vector embeddings for context-aware responses. Built with Next.js API, it features natural language understanding, sensitive content filtering, and <b>real-time voice</b> interaction.",
+        github:"https://github.com/anish2272002/voice-bot",
+        website:"https://voice-bot-eight-silk.vercel.app",
+    },
+    {
         imgs:"secureshare.jpg",
         img:"secureshare.jpg",
         title:"SecureShare Web App",
